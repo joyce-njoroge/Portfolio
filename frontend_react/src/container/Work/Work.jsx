@@ -67,15 +67,7 @@ const Work = () => {
     <>
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
-      {/* Button to GitHub projects */}
-      <a
-            href="https://github.com/joyce-njoroge"
-            target="_blank"
-            rel="noreferrer"
-            className="github-projects-button"
-      >
-            My GitHub Projects
-      </a>
+      
       <div className="app__work-filter">
         {['CLI', 'Web Apps', 'All'].map((item, index) => (
           <div
@@ -141,6 +133,15 @@ const Work = () => {
         ))}
         
       </motion.div>
+      {/* Button to GitHub projects */}
+      <a
+            href="https://github.com/joyce-njoroge"
+            target="_blank"
+            rel="noreferrer"
+            className="github-projects-button"
+      >
+            My GitHub Projects
+      </a>
     </>
   );
 };
