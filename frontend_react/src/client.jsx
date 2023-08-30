@@ -11,6 +11,7 @@ export const client = createClient({
     apiVersion: '2023-07-10',
     useCdn: false,
     token: 'skXqezti3f6l3RYAOVU6u5z62eJRJrYgkGh5mg22YUKhbAv2Q5w1L6aOJX8hvoEwiLsVTfiXeL4ZyFNbbbI9xzJeo1FXdx6tLHscNXSMlJYIUEXglVqqWLycRxNayXF9WzmOTXjVnkLPvOKqFkoDkihsHKd4kTZhgUmo5jxAiAlrijCNLMIh',
+    ignoreBrowserTokenWarning: true
   });
   
 const builder = imageUrlBuilder(client);
