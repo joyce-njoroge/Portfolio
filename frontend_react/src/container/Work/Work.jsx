@@ -20,7 +20,7 @@ const Work = () => {
     },
     {
       image: '',
-      projectLink: 'https://ecommerce-nextjs-3nfyxpk1v-joyce-njoroge.vercel.app/',
+      projectLink: 'https://ecommerce-nextjs-3nfyxpk1v-joyce-njoroge.vercel.app',
       codeLink: 'https://github.com/joyce-njoroge/ecommerce-sanity-nextjs',
       title: 'Ecommerce Admin',
       description: 'A modern fullstack app that helps store owners edit and manage their stores.',
